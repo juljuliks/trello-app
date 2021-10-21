@@ -7,22 +7,19 @@
     "dialect": "postgres"
   },
   "test": {
-    "username": "onjpwuhevtzygt",
-    "password": "8329b7642ab296f11436a98dd595f81778555362c4a9abb1b096d39fcd398f5c",
-    "database": "d349utc2h8l2su",
-    "host": "ec2-54-195-141-170.eu-west-1.compute.amazonaws.com",
+    "username": "elbrus_practice",
+    "password": 7236,
+    "database": "react-project",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
         "rejectUnauthorized": false
       }
     }
-  },
-  "production": {
-    "username": "elbrus_practice",
-    "password": 7236,
-    "database": "react-project",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
   }
 }
