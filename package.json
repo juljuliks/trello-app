@@ -1,0 +1,14 @@
+{
+  "name": "trello-app",
+  "version": "1.0.0",
+  "main": "index.js",  
+  "scripts": {
+    "build": "cd client && yarn && yarn build",
+    "start": "cd server && npm i && npx sequelize-cli db:migrate && npm start"
+  },
+  "author": "",
+  "license": "ISC",
+    "engines": {
+    "yarn": "1.22.5"
+  }
+}
