@@ -7,11 +7,13 @@
     "dialect": "postgres"
   },
   "test": {
-    "username": "elbrus_practice",
-    "password": 7236,
-    "database": "react-project",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "rejectUnauthorized": false
+      }
+    }
   },
   "production": {
     "use_env_variable": "DATABASE_URL",
