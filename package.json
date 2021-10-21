@@ -4,7 +4,7 @@
   "main": "index.js",  
   "scripts": {
     "build": "cd client && yarn && yarn build",
-    "start": "cd server && npm i && npx sequelize db:migrate && npm start"
+    "start": "cd server && npm i && npx sequelize-cli db:migrate && npm start"
   },
   "author": "",
   "license": "ISC",
