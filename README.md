@@ -45,6 +45,10 @@
     - [X] Перемещение
     - [X] Редактирование
     - [X] Удаление
+- А также
+    - [X] Перейти к другой доске
+    - [X] Создать новую доску
+    - [X] Выйти из аккаунта
 
 [![Demo Task Tracker](/readme-assets/demo1.gif)][heroku]
 [![Demo Task Tracker](/readme-assets/demo2.gif)][heroku]
