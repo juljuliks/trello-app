@@ -17,7 +17,7 @@
 <br/>
 <br/>
 
-- Фронтенд: React, Bootstrap, Styled-components
+- Фронтенд: React, React-Beautiful-DnD, Bootstrap, Styled-components
 - Бекенд: Node.js, Express, PostgreSQL, Sequelize ORM
 
 ## Пробежимся по функционалу
