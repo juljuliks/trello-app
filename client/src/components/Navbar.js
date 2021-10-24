@@ -57,7 +57,10 @@ export default function Navbar(props) {
           <div className="d-flex align-items-center">
             <a className="nav-link link-secondary" href="/" onClick={logoutHandler}>Logout</a>
             <div className="form-check form-switch">
-              <input onChange={() => themeToggleHanlder(props.setDarkMode, props.darkMode)} className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" />
+              <label id="switch" class="switch">
+                <input type="checkbox" onchange="toggleTheme()" id="slider" onChange={() => themeToggleHanlder(props.setDarkMode, props.darkMode)}/>
+                  <span class="slider round"></span>
+              </label>
             </div>
           </div>
         </div>
