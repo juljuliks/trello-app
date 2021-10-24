@@ -34,14 +34,14 @@ function AuthPage() {
           <div className="card-body">
             <h5 className="card-title mb-3">log in</h5>
             <div className="input-group mb-3">
-              <span className="input-group-text" id="basic-addon1" style={{width: 100}}>Email</span>
-              <input type="text" name="email" className="form-control" autoComplete="off"
+              <span className="input-group-text" id="basic-addon1" style={{width: 100}}>Login</span>
+              <input type="text" name="email" required className="form-control" autoComplete="off"
               onChange={changeHandler}
               />
             </div>
             <div className="input-group mb-3">
               <span className="input-group-text" id="basic-addon1" style={{width: 100}}>Password</span>
-              <input type="password" name="password" className="form-control" autoComplete="off"
+              <input type="password" name="password" required className="form-control" autoComplete="off"
               onChange={changeHandler}
               />
             </div>
